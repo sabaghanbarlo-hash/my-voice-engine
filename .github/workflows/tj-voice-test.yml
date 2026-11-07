@@ -1,0 +1,73 @@
+name: TJ voice test
+
+# Auditions Voice Studio voices for the Tiny Japanese course. Runs video-tools/voice_test.py from the
+# tiny-japanese repo (branch better-voices) and saves the clips to tj-voice-test/ here.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tj-voice-test
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: sabaghanbarlo-hash/tiny-japanese
+          ref: better-voices
+          path: tj
+
+      - name: System dependencies
+        run: |
+          sudo rm -f /etc/apt/sources.list.d/microsoft-prod.list /etc/apt/sources.list.d/microsoft-prod.sources /etc/apt/sources.list.d/mono-official-stable.list
+          for i in 1 2 3; do
+            sudo apt-get update -y -o Acquire::Retries=3 || true
+            sudo apt-get install -y ffmpeg espeak-ng && break
+            echo "apt attempt $i failed, retrying..."; sleep 10
+          done
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Voice Studio
+        run: |
+          pip install numpy
+          pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install "transformers>=5.10.0" accelerate pydub soundfile numpy pykakasi
+          pip install --no-deps "git+https://github.com/debpalash/VoiceStudio.git"
+          python -c "import omnivoice; from omnivoice import OmniVoice; print('Voice Studio engine ok')"
+
+      - name: Cache model files
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-voicestudio-v1
+
+      - name: Audition the voices
+        run: python -u tj/video-tools/voice_test.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tj-voice-test
+          path: tj/voice-test
+
+      - name: Save the clips
+        run: |
+          rm -rf tj-voice-test
+          cp -r tj/voice-test tj-voice-test
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add tj-voice-test
+          git commit -m "TJ voice test clips" || echo "nothing to commit"
+          git pull --rebase || true
+          git push
