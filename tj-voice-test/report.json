@@ -1,0 +1,322 @@
+[
+ {
+  "candidate": "mika-ja",
+  "clip": "ga",
+  "text": "ガ",
+  "said": "ガ。",
+  "seed": 0,
+  "heard": "が",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "mika-ja",
+  "clip": "gi",
+  "text": "ギ",
+  "said": "ギ。",
+  "seed": 0,
+  "heard": "キー",
+  "score": 0.0,
+  "ok": false
+ },
+ {
+  "candidate": "mika-ja",
+  "clip": "gu",
+  "text": "グ",
+  "said": "グ。",
+  "seed": 0,
+  "heard": "グッ",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "mika-ja",
+  "clip": "ge",
+  "text": "ゲ",
+  "said": "ゲ、ゲ",
+  "seed": 1,
+  "heard": "ゲット!",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "mika-ja",
+  "clip": "go",
+  "text": "ゴ",
+  "said": "ゴ、ゴ",
+  "seed": 0,
+  "heard": "ゴー!",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "mika-ja",
+  "clip": "word-arigatou",
+  "text": "ありがとう",
+  "said": "ありがとう",
+  "seed": 0,
+  "heard": "ありがとう",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "mika-ja",
+  "clip": "word-konnichiwa",
+  "text": "こんにちは",
+  "said": "こんにちは",
+  "seed": 0,
+  "heard": "こんにちは。",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "mika-ja",
+  "clip": "line",
+  "text": "はじめまして。わたしはミカです。",
+  "said": "はじめまして。わたしはミカです。",
+  "seed": 0,
+  "heard": "はじめまして私はミカです",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "mika-en",
+  "clip": "ga",
+  "text": "ガ",
+  "said": "ガ。",
+  "seed": 0,
+  "heard": "がっ",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "mika-en",
+  "clip": "gi",
+  "text": "ギ",
+  "said": "ギ、ギ",
+  "seed": 0,
+  "heard": "ギー",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "mika-en",
+  "clip": "gu",
+  "text": "グ",
+  "said": "グ。",
+  "seed": 0,
+  "heard": "グッ",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "mika-en",
+  "clip": "ge",
+  "text": "ゲ",
+  "said": "ゲ。",
+  "seed": 0,
+  "heard": "げー!",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "mika-en",
+  "clip": "go",
+  "text": "ゴ",
+  "said": "ゴ。",
+  "seed": 0,
+  "heard": "Go!",
+  "score": 0.0,
+  "ok": false
+ },
+ {
+  "candidate": "mika-en",
+  "clip": "word-arigatou",
+  "text": "ありがとう",
+  "said": "ありがとう",
+  "seed": 1,
+  "heard": "ありがとう",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "mika-en",
+  "clip": "word-konnichiwa",
+  "text": "こんにちは",
+  "said": "こんにちは",
+  "seed": 0,
+  "heard": "こんにち",
+  "score": 0.89,
+  "ok": true
+ },
+ {
+  "candidate": "mika-en",
+  "clip": "line",
+  "text": "はじめまして。わたしはミカです。",
+  "said": "はじめまして。わたしはミカです。",
+  "seed": 0,
+  "heard": "はじめまして 私はみかです",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-ja",
+  "clip": "ga",
+  "text": "ガ",
+  "said": "ガ。",
+  "seed": 1,
+  "heard": "がっ",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-ja",
+  "clip": "gi",
+  "text": "ギ",
+  "said": "ギ。",
+  "seed": 0,
+  "heard": "ギー",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-ja",
+  "clip": "gu",
+  "text": "グ",
+  "said": "グ。",
+  "seed": 0,
+  "heard": "グッ",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-ja",
+  "clip": "ge",
+  "text": "ゲ",
+  "said": "ゲ。",
+  "seed": 0,
+  "heard": "ゲッ",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-ja",
+  "clip": "go",
+  "text": "ゴ",
+  "said": "ゴ、ゴ",
+  "seed": 1,
+  "heard": "ご視聴ありがとうございました",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-ja",
+  "clip": "word-arigatou",
+  "text": "ありがとう",
+  "said": "ありがとう",
+  "seed": 0,
+  "heard": "ありがとう",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-ja",
+  "clip": "word-konnichiwa",
+  "text": "こんにちは",
+  "said": "こんにちは",
+  "seed": 0,
+  "heard": "こんにちは",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-ja",
+  "clip": "line",
+  "text": "はじめまして。ぼくはアレックスです。",
+  "said": "はじめまして。ぼくはアレックスです。",
+  "seed": 0,
+  "heard": "はじめまして 僕はアレックスです",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-en",
+  "clip": "ga",
+  "text": "ガ",
+  "said": "ガ。",
+  "seed": 0,
+  "heard": "ご視聴ありがとうございました",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-en",
+  "clip": "gi",
+  "text": "ギ",
+  "said": "ギ。",
+  "seed": 0,
+  "heard": "ギッ",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-en",
+  "clip": "gu",
+  "text": "グ",
+  "said": "グ。",
+  "seed": 1,
+  "heard": "グッ",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-en",
+  "clip": "ge",
+  "text": "ゲ",
+  "said": "ゲ、ゲ",
+  "seed": 0,
+  "heard": "ゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッゲッ",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-en",
+  "clip": "go",
+  "text": "ゴ",
+  "said": "ゴ。",
+  "seed": 0,
+  "heard": "ご視聴ありがとうございました",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-en",
+  "clip": "word-arigatou",
+  "text": "ありがとう",
+  "said": "ありがとう",
+  "seed": 0,
+  "heard": "ありがとう",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-en",
+  "clip": "word-konnichiwa",
+  "text": "こんにちは",
+  "said": "こんにちは",
+  "seed": 1,
+  "heard": "こんにちは",
+  "score": 1.0,
+  "ok": true
+ },
+ {
+  "candidate": "alex-en",
+  "clip": "line",
+  "text": "はじめまして。ぼくはアレックスです。",
+  "said": "はじめまして。ぼくはアレックスです。",
+  "seed": 0,
+  "heard": "はじめまして僕はアレックスです",
+  "score": 1.0,
+  "ok": true
+ }
+]
